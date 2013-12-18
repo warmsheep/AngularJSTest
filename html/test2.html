@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title></title>
+    <script src="../js/angular.js"></script>
+    <script src="../js/controller2.js"></script>
+</head>
+<body>
+<p ng-controller="showText">{{someText}}</p>
+<p ng-controller="showHelloWorld">{{message.text}}</p>
+<p ng-controller="showModuleText">{{message2.text2}}</p>
+
+<p ng-controller="showModuleText2" ng-bind="message3.text3"></p>
+<div ng-controller="school" >
+<input ng-change="changeName()" ng-model="name1">
+<p>{{132+2+name2}}</p>
+<p>12312322222222</p>
+    good12222444111
+</div>
+</body>
+</html>
